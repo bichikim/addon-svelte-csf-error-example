@@ -1,0 +1,3 @@
+<main>
+  Hello example
+</main>

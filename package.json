@@ -1,0 +1,34 @@
+{
+  "name": "addon-svelte-csf-error-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "pnpm run --filter @apps/app dev",
+    "storybook": "storybook dev",
+    "hot-fix": "tsx addon-svelte-csf-hot-fix.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bichikim/addon-svelte-csf-error-example.git"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.2",
+    "@types/node": "^22.2.0",
+    "vite": "^5.4.0",
+    "svelte": "^4.2.15",
+    "typescript": "^5.5.4",
+    "svelte-preprocess": "^5.1.4",
+    "storybook": "8.1.5",
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "@storybook/svelte": "^8.1.5",
+    "@storybook/builder-vite": "8.1.5",
+    "@storybook/svelte-vite": "8.1.5",
+    "@storybook/addon-actions": "8.1.5",
+    "@storybook/addon-essentials": "8.1.5",
+    "@storybook/addon-interactions": "8.1.5",
+    "@storybook/addon-links": "8.1.5",
+    "@storybook/addon-svelte-csf": "4.1.4"
+  },
+  "private": true
+}
